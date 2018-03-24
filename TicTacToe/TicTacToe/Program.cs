@@ -308,6 +308,7 @@ namespace TicTacToe
             {
                 Console.WriteLine("Thanks for playing! Press any key to exit.");
                 Console.ReadKey();
+                // causes game to close
                 Environment.Exit(0);
             }
             else
