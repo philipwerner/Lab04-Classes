@@ -12,13 +12,7 @@ namespace TicTacToe
             Mark = mark;
         }
 
-        public Player()
-        {
-
-        }
-
         public string Name { get; set; }
         public string Mark { get; set; }
-        public string[] Selections { get; set; }
     }
 }

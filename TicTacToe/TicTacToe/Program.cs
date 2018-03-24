@@ -209,10 +209,15 @@ namespace TicTacToe
                 Console.WriteLine($"{player1.Name} goes first.");
                 StartGame(player1, player2);
             }
-            if (answer == "N" || answer == "NO")
+            else if (answer == "N" || answer == "NO")
             {
                 Console.WriteLine("Thanks for playing! Press any key to exit.");
                 Console.ReadKey();
+                Environment.Exit(0);
+            }
+            else
+            {
+                Console.WriteLine("I will take that as a no...");
                 Environment.Exit(0);
             }
 
