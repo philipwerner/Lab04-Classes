@@ -44,4 +44,6 @@ $ dotnet run
 
 ## Demo
 
-Coming soon!!!!
+![Game Start Up](https://github.com/philipwerner/Lab04-Classes/blob/lab04-phil/TicTacToe/Assests/startUp.png)
+![Game In Progress](https://github.com/philipwerner/Lab04-Classes/blob/lab04-phil/TicTacToe/Assests/inProgress.png)
+![Game Over](https://github.com/philipwerner/Lab04-Classes/blob/lab04-phil/TicTacToe/Assests/winner.png)
