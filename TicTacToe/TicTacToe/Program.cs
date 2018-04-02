@@ -56,7 +56,7 @@ namespace TicTacToe
         /// creates an instance of TheBoard class
         /// </summary>
         /// <returns>a TheBoard object</returns>
-        static string[,] CreateBoard()
+        public static string[,] CreateBoard()
         {
             TheBoard board = new TheBoard();
             /// creating 3x3 game board matrix
@@ -163,7 +163,7 @@ namespace TicTacToe
         /// <param name="selection">string type of the selected space</param>
         /// <param name="board">string[,] type of current game state</param>
         /// <returns>bool type</returns>
-        static bool CheckIfSpaceOpen(string selection, string[,] board)
+        public static bool CheckIfSpaceOpen(string selection, string[,] board)
         {
             bool check = false;
             // arrays to pass current row values into

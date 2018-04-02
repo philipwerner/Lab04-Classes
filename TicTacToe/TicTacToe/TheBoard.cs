@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TicTacToe
 {
-    class TheBoard
+    public class TheBoard
     {
         public string Pos1 { get; set; } = "|1|";
         public string Pos2 { get; set; } = "|2|";
